@@ -2,6 +2,7 @@ pipeline{
     agent any
     stages
     {
+    //added comments
         stage('ContinousDownload'){
             steps{
             git 'https://github.com/intelliqittrainings/maven.git'
